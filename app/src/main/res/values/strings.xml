@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SampleTileDesign</string>
+    <string name="tile_one">Tile One</string>
+    <string name="tile_two">Tile Two</string>
+    <string name="tile_three">Tile Three</string>
+    <string name="tile_four">Tile Four</string>
+    <string name="tile_five">Tile Five</string>
+    <string name="tile_six">Tile Six</string>
+    <string name="author_layout">Made By AbolfazlFakhari\nNameProject :SampleTileDesign\n</string>
+    <string name="site_me">Site Me :www.abolfazlfakhari.ir</string>
+    <string name="page_github">Pge Github Project :https://github.com/abolfazlfakhari/SampleTileDesign</string>
+</resources>

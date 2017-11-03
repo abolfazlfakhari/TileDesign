@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_view_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_color"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/r_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+
+
+
+        <TextView
+            android:id="@+id/txt_view_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white_color"
+            android:layout_toLeftOf="@+id/img_view_two"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Tile" />
+
+        <ImageView
+            android:id="@+id/img_view_two"
+            android:layout_width="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            tools:src="@drawable/happy" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
